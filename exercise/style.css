@@ -13,3 +13,9 @@ li {
     padding: 8px;
     color: white;
 }
+
+/* FOOTER */
+
+footer {
+    background-color: rgb(75, 72, 72);
+}
