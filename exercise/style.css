@@ -1,0 +1,15 @@
+/* HEADER */
+header {
+    background-color: rgb(75, 72, 72);
+    height: 60px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+    padding: 8px;
+    color: white;
+}
