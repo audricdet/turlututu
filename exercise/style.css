@@ -1,6 +1,6 @@
 /* BODY */
 * {
-    font-family: 'Roboto Serif', serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
@@ -8,6 +8,10 @@ body {
     height: 100%;
 }
 
+
+#special {
+    color : white
+}
 
 /* HEADER */
 section {
@@ -54,6 +58,10 @@ li {
 /* MAIN */
 /* SECTIONS */
 
+h1{
+    font-weight: 100;
+    font-size: 25px;
+}
 
 #reste {
     justify-content: center;
@@ -75,7 +83,7 @@ li {
     border: 1px solid white;
     border-radius: 3px;
     display: block;
-    margin-left: 60px;
+    margin-left: 90px;
 }
 
 
