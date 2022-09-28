@@ -12,7 +12,11 @@ body {
 /* HEADER */
 section {
     display: flex;
-    justify-content: center;
+}
+
+article {
+    margin-left: auto;
+    margin-right: auto;
 }
 
 header {
@@ -49,10 +53,13 @@ li {
 }
 /* MAIN */
 /* SECTIONS */
-#man {
-    height : 50%;
-    float: left;
+
+
+#reste {
+    justify-content: center;
+    margin-top: 20px;
 }
+
 
 #nuage {
     height: 50%;
@@ -67,7 +74,10 @@ li {
     background-color: rgb(242, 129, 31);
     border: 1px solid white;
     border-radius: 3px;
+    display: block;
+    margin-left: 60px;
 }
+
 
 .button2 {
     width: 150px;
@@ -91,23 +101,57 @@ li {
     height: 350px;
 }
 
+
 #section4 {
     color: rgb(153, 155, 155)
     ;
 }
 
 #section5 {
+    height: 250px;
     background-color: rgb(236, 234, 233);
+}
+
+#section6 {
+    height: 250px;
 }
 
 .blanc {
     color: white;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+div {
+    display: flex;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#article2 {
+    justify-content: center;
+}
+
+#article4 {
+    justify-content: center;
+}
+
+.article6 {
+    justify-content: center;
+    padding-top: 60px;
 }
 
 .sponsor {
-    height: 50%;
-    width: 50%;
-    margin: 0;
+    height: 50px;
+    width: 40%;
+    padding: 30px;
+}
+
+#sponsor2 {
+    height: 50px;
+    width :40px;
 }
 
 /* FOOTER */
